@@ -27,3 +27,21 @@ Before running the application, ensure you have Python installed. You will also 
 ```bash
 git clone https://github.com/09-prince/crypto-tracker.git
 cd crypto-tracker
+
+
+
+python -m venv .venv
+.venv\Scripts\activate  # For Windows
+source .venv/bin/activate  # For macOS/Linux
+pip install -r requirements.txt
+
+
+
+API_KEY=your_coinmarketcap_api_key
+
+
+streamlit run app.py
+
+
+License
+This project is open-source and available under the MIT License.
